@@ -84,7 +84,6 @@ Receiver: http://localhost:5001
 
 ### Web UI Version
 
-### Web UI Version
 
 ![Web UI Screenshot 1](./screenshots/web_screenshot-1.png)
 
@@ -95,11 +94,12 @@ Receiver: http://localhost:5001
 
 ### Demo Video
 
-[![Demo Video](./screenshots/demo_thumbnail.png)](https://youtu.be/your-video-link)
+[![Demo Video](./screenshots/demo_thumbnail.png)](https://drive.google.com/file/d/1uRVloWtv2tptIMac363FghP_6KlG7ZQw/view?usp=drivesdk)
 
 *Click the image above to watch a short demo of the system in action!*
 
 ✅ Features
+
 AES-256 encryption with randomly generated key per transfer
 
 RSA public key encryption for secure key exchange
@@ -115,6 +115,7 @@ Clean web and GUI interfaces
 
 
 🧠 Project Journey
+
 This project evolved from a command-line interface (CLI) prototype into full GUI and Web UI applications. It reflects practical skills in cryptography, secure communications, Python GUI/web development, and full-stack thinking.
 
 
