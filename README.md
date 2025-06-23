@@ -84,8 +84,12 @@ Receiver: http://localhost:5001
 
 ### Web UI Version
 
-![Web UI Screenshot](./screenshots/web_screenshot-1.png)
-(./screenshots/web_screenshot-2.png)
+### Web UI Version
+
+![Web UI Screenshot 1](./screenshots/web_screenshot-1.png)
+
+![Web UI Screenshot 2](./screenshots/web_screenshot-2.png)
+
 
 *Web interface for sending files via browser.*
 
