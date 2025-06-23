@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Secure File Receiver</title>
+</head>
+<body>
+  <h2>Secure File Receiver</h2>
+  <table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+      <th>Filename</th>
+      <th>Status</th>
+    </tr>
+    {% for f in files %}
+    <tr>
+      <td>{{ f.filename }}</td>
+      <td>{{ f.status }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

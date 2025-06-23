@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Secure File Sender</title>
+</head>
+<body>
+  <h2>Secure File Sender</h2>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul>
+        {% for msg in messages %}
+          <li>{{ msg }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+  <form method="post" enctype="multipart/form-data">
+    <label>File to send:</label><br>
+    <input type="file" name="send_file" required><br><br>
+
+    <label>Receiver's Public Key (.pem):</label><br>
+    <input type="file" name="pub_key_file" accept=".pem" required><br><br>
+
+    <label>Receiver IP address:</label><br>
+    <input type="text" name="receiver_ip" placeholder="e.g., 192.168.1.42" required><br><br>
+
+    <button type="submit">Send File</button>
+  </form>
+</body>
+</html>
