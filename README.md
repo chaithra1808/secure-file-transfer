@@ -34,6 +34,7 @@ A full-featured encrypted file transfer system built in Python, supporting both 
 1.Clone the repository:
 
 git clone https://github.com/chaithra1808/secure-file-transfer.git
+
 cd secure-file-transfer
 
 2.Install dependencies:
@@ -41,23 +42,29 @@ cd secure-file-transfer
 pip install flask pycryptodome
 
 3.(Optional) Generate new RSA keys:
+
 python tools/rsa_keygen.py
 
 🚀 How to Run
+
 GUI Version:
 
 cd gui_version
+
 python gui_transfer.py
 
 Web Version:
+
 1.Start the receiver:
 
 cd web_version
+
 python receiver_web.py
 
 2.Start the sender in a new terminal:
 
 cd web_version
+
 python sender_web.py
 
 3.Visit the interfaces:
@@ -67,6 +74,25 @@ Sender: http://localhost:5000
 Receiver: http://localhost:5001
 
 
+## 🎥 Demo & Screenshots
+
+### GUI Version
+
+![GUI Screenshot](./screenshots/gui_screenshot.png)
+
+*The desktop app interface to securely send and receive files.*
+
+### Web UI Version
+
+![Web UI Screenshot](./screenshots/web_screenshot-1.png)(./screenshots/web_screenshot-2.png)
+
+*Web interface for sending files via browser.*
+
+### Demo Video
+
+[![Demo Video](./screenshots/demo_thumbnail.png)](https://youtu.be/your-video-link)
+
+*Click the image above to watch a short demo of the system in action!*
 
 ✅ Features
 AES-256 encryption with randomly generated key per transfer
